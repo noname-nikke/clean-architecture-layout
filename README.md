@@ -9,18 +9,15 @@
 三种方式任选，装到任意一个 skills 根目录下的 `clean-architecture-layout/` 即可。
 
 ```powershell
-# 1) git clone（推荐，方便后续更新）
-git clone https://github.com/noname-nikke/clean-architecture-layout.git "<你的 skills 目录>\clean-architecture-layout"
+# 1) 从 Release 下载 zip（推荐首发安装，无需 git）
+#    https://github.com/noname-nikke/clean-architecture-layout/releases
+#    解压后得到 clean-architecture-layout/ 目录，整体放进 skills 根目录
 
-# 2) 下载 zip 后解压到同名目录
+# 2) git clone（适合需要后续 git pull 更新）
+git clone https://github.com/noname-nikke/clean-architecture-layout.git "<skills 根目录>/clean-architecture-layout"
+
+# 3) 仓库源码 zip（跟随 main 分支最新提交）
 #    https://github.com/noname-nikke/clean-architecture-layout/archive/refs/heads/main.zip
-```
-
-本机示例（豆包客户端）：
-
-```powershell
-git clone https://github.com/noname-nikke/clean-architecture-layout.git `
-  "C:\Users\13587\AppData\Local\Doubao\User Data\Default\.doubao\agent_mode\workspace\.user_skills\clean-architecture-layout"
 ```
 
 要求：目录里 `SKILL.md` 与目录名一致；`references/`、`scripts/` 必须与 `SKILL.md` 同级，路径不要打散。
